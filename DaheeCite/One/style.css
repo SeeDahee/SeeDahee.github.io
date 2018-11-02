@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+mark
+{
+    background-color: #ffd800;
+}
+
+
+a:hover
+{
+    background-color: #ff9651;
+    font-weight: bold;
+    color: black; 
+}
+
+a:link {color:#562306;}    /* unvisited link is black*/
+a:visited {color:#ff9651} /* visited link is black (reverse the color back to black)*/
+a:hover {color:#ffd800}   /* mouse over link (blue when mouse over)*/
+a:active {color:#ffd800}  /* selected link (blue in the split second which you loading the page.)*/
+
+mark:hover
+{
+    background-color: #ff9651;
+}
+
+mark.other:hover
+{
+    background-color: #ffd800;
+}
+
+img{
+    display: none
+ }
+ 
+ span:hover + img{
+    display: inherit;
+ }
+
+h1
+{
+    font-weight: bold;
+    color: black;
+    font-size: 72px;
+    margin-left:45px;
+
+}
+
+h2
+{
+    margin-left:45px;
+    color: black;
+}
+
+h3
+{
+    margin-left:45px;
+    margin-right:65px;
+    color: black;
+    
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    color: #686767;
+    font-size: 24px;
+    padding-bottom: 25px;
+
+}
+
+a.about
+{
+    
+color: black;
+font-size: 24px;
+text-align: justify;
+margin-right:115px;
+
+}
+
+a.interruption
+{
+    font-size: 24px;
+color: black;
+font-size: 20px;
+text-align: justify;
+margin-left: 380px;
+margin-right:115px;
+
+
+}
+
+p.point 
+{
+color: black;
+font-size: 24px;
+text-align: justify;
+margin-left: 320px;
+margin-right:150px;
+padding-bottom: 5px;
+}
+
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
