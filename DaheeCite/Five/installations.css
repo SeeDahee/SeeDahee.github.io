@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,700');
+
+a.about:hover {
+    background-color: #ffa060;
+    font-style: bold;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+mark
+{
+
+    background-color: #ffd800
+
+
+}
+
+h1
+    {
+        text-align: center;
+        font-weight: bold;
+        color: black;
+        font-size: 72px;
+        margin-left:55px;
+    
+    }
+
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    
+    width: 55%;
+    margin-left:55px;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 55%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: #ffa060;
+    margin-left:55px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    
+    color: black;
+    font-size: 38px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+  }
