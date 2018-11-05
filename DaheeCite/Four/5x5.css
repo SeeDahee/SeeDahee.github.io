@@ -8,22 +8,20 @@ mark
 
 }
 
-a:hover 
+
+a.about:hover
 {
     background-color: #ffa060;
     font-weight: bold;
     color:black;
-}
-a.about
-{
-font-size: 40;
-color: black;
-font-size: 20px;
-text-align: justify;
-margin-right:55px;
 
 }
 
+
+a:link {color:#ff9651}   
+a:visited {color:#ff9651} 
+a:hover {color:#ffd800}   
+a:active {color:#ffd800} 
 
 h1
 {

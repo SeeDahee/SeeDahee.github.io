@@ -19,7 +19,7 @@ a.about
 font-size: 40;
 color: black;
 font-size: 20px;
-text-align: justify;
+text-align: left;
 margin-right:55px;
 
 }
@@ -29,7 +29,7 @@ h1
 {
     font-weight: bold;
     color: black;
-    font-size: 60px;
+    font-size: 72px;
     margin-left:55px;
 
 }
@@ -63,7 +63,7 @@ a.interruption
 
 color: black;
 font-size: 24px;
-text-align: justify;
+text-align: left;
 margin-left: 410px;
 margin-right:55px;
 }   
@@ -74,7 +74,7 @@ p.point
 
 color: black;
 font-size: 24px;
-text-align: justify;
+text-align: left;
 margin-left: 410px;
 margin-right:55px;
 padding-bottom: 25px;
@@ -92,7 +92,7 @@ p.ideation
 
 color: black;
 font-size: 24px;
-text-align: justify;
+text-align: left;
 margin-left: 410px;
 margin-right:55px;
 padding-bottom: 25px;
@@ -101,9 +101,10 @@ padding-bottom: 25px;
 
 p.material
 {
-font-size: 24px;
+
 color: black;
-text-align: justify;
+font-size: 24px;
+text-align: left;
 margin-left: 410px;
 margin-right:55px;
 padding-bottom: 25px;
@@ -112,9 +113,10 @@ padding-bottom: 25px;
 
 p.outcome
 {
-    font-size: 24px;
+
 color: black;
-text-align: justify;
+font-size: 24px;
+text-align: left;
 margin-left: 410px;
 margin-right:55px;
 padding-bottom: 25px;
