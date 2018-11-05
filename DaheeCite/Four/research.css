@@ -31,7 +31,6 @@ h1
     position: relative;
     width: 50%;
   }
-  
   .image {
     
     width: 55%;
@@ -59,6 +58,17 @@ h1
   
   .text {
     
+    color: black;
+    font-size: 38px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+  }
+
+  .textTwo {
     color: black;
     font-size: 38px;
     position: absolute;
