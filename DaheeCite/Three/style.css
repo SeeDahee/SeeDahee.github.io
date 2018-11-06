@@ -16,13 +16,31 @@ a:hover
 }
 a.about
 {
-font-size: 40;
+font-size: 35px;
 color: black;
-font-size: 20px;
 text-align: left;
 margin-right:55px;
 
 }
+
+a.systems:hover 
+{
+    background-color: #ffa060;
+    font-weight: bold;
+    color:black;
+}
+
+a.systems
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+
 
 
 h1

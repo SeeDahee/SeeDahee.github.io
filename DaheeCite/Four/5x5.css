@@ -9,11 +9,35 @@ mark
 }
 
 
-a.about:hover
+a:hover 
 {
     background-color: #ffa060;
     font-weight: bold;
     color:black;
+}
+a.about
+{
+font-size: 35px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+a.research:hover 
+{
+    background-color: #ffa060;
+    font-weight: bold;
+    color:black;
+}
+
+a.research
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
 
 }
 
@@ -21,6 +45,7 @@ a.about:hover
 a:link {color:#ff9651}   
 a:visited {color:#ff9651} 
 a:hover {color:#ffd800}   
+a:active {color:#ffd800} 
 a:active {color:#ffd800} 
 
 h1
