@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,700');
 
-a.about:hover {
+a.about:hover 
+{
     background-color: #ffa060;
-    font-style: bold;
+    font-weight: bold;
+    color:black;
 }
+a.about
+{
+    font-size: 40;
+color: black;
+font-size: 20px;
+text-align: left;
+margin-right:55px;
 
+
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -25,16 +36,29 @@ h1
         margin-left:55px;
     
     }
-.flex-container
-{
-    display: flex;
-    background-color: white;
-}
 
 .container {
+    background: white;
     position: relative;
-    width: 50%;
+    width: 80%;
+    margin-left: 290px;
   }
+
+
+  .containerOne {
+    background: white;
+    position: relative;
+    width: 80%;
+    margin-left: 290px;
+  }
+
+  .containerTwo {
+    background:white;
+    position: relative;
+    width: 80%;
+    margin-left: 290px;
+  }
+
   .image {
     
     width: 55%;
@@ -59,15 +83,23 @@ h1
   .container:hover .overlay {
     opacity: 1;
   }
+
+  .containerOne:hover .overlay {
+    opacity: 1;
+  }
+
+  .containerTwo:hover .overlay {
+    opacity: 1;
+  }
   
   .text {
     
     color: black;
-    font-size: 38px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    font-size: 35px;
+    position: absolute;  
+    left: 50%;                        /* horizontal alignment */
+    top: 50%;                         /* vertical alignment */
+    transform: translate(-50%, -50%);
 
   }

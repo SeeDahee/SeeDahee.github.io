@@ -8,28 +8,26 @@ mark
 
 }
 
-a.about:hover 
+
+a.about:hover
 {
     background-color: #ffa060;
     font-weight: bold;
     color:black;
-}
-a.about
-{
-    font-size: 40;
-color: black;
-font-size: 20px;
-text-align: left;
-margin-right:55px;
-
 
 }
+
+
+a:link {color:#ff9651}   
+a:visited {color:#ff9651} 
+a:hover {color:#ffd800}   
+a:active {color:#ffd800} 
 
 h1
 {
     font-weight: bold;
     color: black;
-    font-size: 72px;
+    font-size: 60px;
     margin-left:55px;
 
 }
@@ -74,7 +72,7 @@ p.point
 
 color: black;
 font-size: 24px;
-text-align: left;
+text-align: justify;
 margin-left: 410px;
 margin-right:55px;
 padding-bottom: 25px;
@@ -101,9 +99,8 @@ padding-bottom: 25px;
 
 p.material
 {
-
-color: black;
 font-size: 24px;
+color: black;
 text-align: left;
 margin-left: 410px;
 margin-right:55px;
@@ -113,9 +110,8 @@ padding-bottom: 25px;
 
 p.outcome
 {
-
+    font-size: 24px;
 color: black;
-font-size: 24px;
 text-align: left;
 margin-left: 410px;
 margin-right:55px;
