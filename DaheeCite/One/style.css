@@ -23,6 +23,12 @@ mark:hover
     background-color: #ff9651;
 }
 
+mark.underline
+{
+    
+    background-color: white;
+}
+
 mark.other:hover
 {
     background-color: #ffd800;
@@ -51,6 +57,7 @@ h3
     margin-left:45px;
     margin-right:65px;
     color: black;
+    border-bottom: solid #ffd800; 
     
 }
 
