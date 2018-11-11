@@ -19,6 +19,25 @@ margin-right:55px;
 
 
 
+a.research:hover 
+{
+    background-color: #ffa060;
+    font-weight: bold;
+    color:black;
+}
+
+a.research
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+
+
 body{
     font-family: 'Open Sans', sans-serif;
 }

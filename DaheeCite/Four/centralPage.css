@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,700');
 
+
+body{
+    color:black;
+}
 mark
 {
 
@@ -8,8 +12,7 @@ mark
 
 }
 
-
-a:hover 
+a.about:hover 
 {
     background-color: #ffa060;
     font-weight: bold;
@@ -23,6 +26,8 @@ text-align: left;
 margin-right:55px;
 
 }
+
+
 
 a.research:hover 
 {
@@ -41,13 +46,22 @@ margin-right:55px;
 
 }
 
+a.systems:hover 
+{
+    background-color: #ffa060;
+    font-weight: bold;
+    color:black;
+}
 
-a:link {color:#ff9651}   
-a:visited {color:#ff9651} 
-a:hover {color:#ffd800}   
-a:active {color:#ffd800} 
+a.systems
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
 
-
+}
 
 
 h1
