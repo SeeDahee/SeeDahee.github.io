@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,700');
 
-a.about:hover 
+mark
+{
+
+    background-color: #ffd800;
+
+
+}
+
+a:hover 
 {
     background-color: #ffa060;
     font-weight: bold;
@@ -8,22 +16,10 @@ a.about:hover
 }
 a.about
 {
-    font-size: 35px;
+font-size: 35px;
 color: black;
 text-align: left;
 margin-right:55px;
-
-
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-mark
-{
-
-    background-color: #ffd800;
-
 
 }
 
@@ -46,56 +42,125 @@ margin-right:55px;
 
 }
 
-h1
-    {
-        text-align: center;
-        font-weight: bold;
-        color: black;
-        font-size: 72px;
-        margin-left:55px;
-    
-    }
-
-
-.container {
-    position: relative;
-    width: 80%;
-    margin-left: 310px;
-  }
-  
-  .image {
-    
-    width: 55%;
-    margin-left:55px;
-    
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 55%;
-    opacity: 0;
-    transition: .4s ease;
+a.systems:hover 
+{
     background-color: #ffa060;
-    margin-left:55px;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .text {
-    
-    color: black;
-    font-size: 38px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    font-weight: bold;
+    color:black;
+}
 
-  }
+a.systems
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+
+h1
+{
+    font-weight: bold;
+    color: black;
+    font-size: 72px;
+    margin-left:55px;
+
+}
+
+h3
+{
+    margin-left: 410px;
+    color: #545150;
+    margin-right:55px;
+
+
+}
+
+a:hover {
+    background-color: #ffa060;
+    font-style: bold;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    color: #686767;
+    font-size: 24px;
+    padding-bottom: 25px;
+
+}
+
+a.interruption
+{
+
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left: 410px;
+margin-right:55px;
+}   
+
+
+p.point
+{
+
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left: 410px;
+margin-right:55px;
+padding-bottom: 25px;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+   
+
+}
+
+p.ideation
+{
+
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left: 410px;
+margin-right:55px;
+padding-bottom: 25px;
+}
+
+
+p.material
+{
+
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left: 410px;
+margin-right:55px;
+padding-bottom: 25px;
+
+}
+
+p.outcome
+{
+
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left: 410px;
+margin-right:55px;
+padding-bottom: 25px;
+border-bottom: solid #ffd800; 
+}
+
+p.image
+{
+    margin-left: 410px;
+padding-bottom: 25px;
+
+}

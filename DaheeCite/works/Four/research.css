@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,700');
+
+a.about:hover 
+{
+    background-color: #ffa060;
+    font-weight: bold;
+    color:black;
+}
+a.about
+{
+  font-size: 35px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+
+}
+
+
+
+a.research:hover 
+{
+    background-color: #ffa060;
+    font-weight: bold;
+    color:black;
+}
+
+a.research
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+mark
+{
+
+    background-color: #ffd800
+
+
+}
+
+h1
+    {
+        text-align: left;
+        font-weight: bold;
+        color: black;
+        font-size: 72px;
+        margin-left:55px;
+    
+    }
+
+.container {
+    background: white;
+    position: relative;
+    width: 80%;
+     margin-left: 315px;
+  }
+
+
+  .containerOne {
+    background: white;
+    position: absolute;
+    width: 80%;
+     margin-left: 315px;
+  }
+
+  .containerTwo {
+    background:white;
+    position: relative;
+    width: 80%;
+     margin-left: 315px;
+  }
+
+  .containerThree {
+    background:white;
+    position: relative;
+    width: 80%;
+     margin-left: 315px;
+  }
+
+  .image {
+    
+    width: 55%;
+    margin-left:55px;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 55%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: #ffa060;
+    margin-left:55px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .containerOne:hover .overlay {
+    opacity: 1;
+  }
+
+  .containerTwo:hover .overlay {
+    opacity: 1;
+  }
+  
+
+  .containerThree:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;  
+    left: 50%;                        /* horizontal alignment */
+    top: 50%;                         /* vertical alignment */
+    transform: translate(-50%, -50%);
+
+  }
