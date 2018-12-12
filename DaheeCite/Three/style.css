@@ -151,7 +151,14 @@ padding-bottom: 25px;
 p.outcome
 {
 
-border: 6px solid #ffd800; 
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left: 410px;
+margin-right:55px;
+padding-bottom: 25px;
+
+border-bottom: 6px solid #ffd800; 
 }
 
 p.image
