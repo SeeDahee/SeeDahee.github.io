@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,700');
+
+mark
+{
+
+    background-color: #ffd800;
+
+
+}
+
+a:hover 
+{
+    background-color: #ffa060;
+    font-weight: bold;
+    color:black;
+}
+a.about
+{
+font-size: 35px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+
+
+a.research:hover 
+{
+    background-color: #ffa060;
+    font-weight: bold;
+    color:black;
+}
+
+a.research
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+a.systems:hover 
+{
+    background-color: #ffa060;
+    font-weight: bold;
+    color:black;
+}
+
+a.systems
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+
+h1
+{
+    font-weight: bold;
+    color: black;
+    font-size: 72px;
+    margin-left:55px;
+
+}
+
+h3
+{
+    margin-left: 410px;
+    color: #545150;
+    margin-right:55px;
+
+
+}
+
+a:hover {
+    background-color: #ffa060;
+    font-style: bold;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    color: #686767;
+    font-size: 24px;
+    padding-bottom: 25px;
+
+}
+
+
+p.image
+{
+    margin-left: 410px;
+padding-bottom: 25px;
+
+}
+
+p.image:hover
+{
+    margin-left: 410px;
+padding-bottom: 25px;
+
+}
