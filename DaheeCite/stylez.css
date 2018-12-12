@@ -115,3 +115,16 @@ em {
     font-style: normal;
     font-weight: bold;
 }
+
+
+p.outcome
+{
+
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left:320px;
+margin-right:55px;
+padding-bottom: 25px;
+border-bottom: solid #ffd800; 
+}
