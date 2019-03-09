@@ -31,12 +31,11 @@ h2
     
 }
 
-mark.titles
+mark
 {
     background-color: #4056A1;
     color: white;
 }
-
 
 em 
 {
@@ -65,7 +64,7 @@ p.info
 
 .trail { /* className for the trail elements */
     position: absolute;
-    height: 8px; width: 8px;
+    height: 10px; width: 10px;
     border-radius: 3px;
     background: #C5CBE3;
   }
