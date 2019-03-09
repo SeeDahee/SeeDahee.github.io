@@ -1,109 +1,92 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
 
-mark
+
+body
 {
-
-    background-color: #ffd800;
-
-
-}
-
-a:hover 
-{
-    background-color: #ffa060;
-    font-weight: bold;
-    color:black;
-}
-a.about
-{
-font-size: 35px;
-color: black;
-text-align: left;
-margin-right:55px;
-
-}
-
-
-
-a.research:hover 
-{
-    background-color: #ffa060;
-    font-weight: bold;
-    color:black;
-}
-
-a.research
-{
+    background: rgb(243, 237, 218);
+    font-family: 'Overpass', sans-serif;
+    font-style: bold;
     
-font-size: 25px;
-color: black;
-text-align: left;
-margin-right:55px;
 
 }
 
-a.systems:hover 
-{
-    background-color: #ffa060;
-    font-weight: bold;
-    color:black;
-}
-
-a.systems
-{
-    
-font-size: 25px;
-color: black;
-text-align: left;
-margin-right:55px;
-
-}
-
+a:link {color:#144B22}
+a:visited {color:#144B22} 
+a:hover {color:#ffd800}   
+a:active {color:#ffd800} 
 
 h1
 {
     font-weight: bold;
-    color: black;
+    color: #4056A1;
     font-size: 72px;
-    margin-left:55px;
+    margin-left:45px;
+}
+
+h2
+{
+    margin-left: 320px;
+    margin-right: 150px;
+    color: black;
+    
+}
+
+mark
+{
+    background-color: #4056A1;
+    color: white;
+}
+
+em 
+{
+    font-style: normal;
+    font-weight: bold;
+    color: #F13C20;
+}
+
+a
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
 
 }
 
-h3
+a.content
 {
-    margin-left: 410px;
-    color: #545150;
-    margin-right:55px;
-
-
+    font-size: 45px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 a:hover {
-    background-color: #ffa060;
+    
     font-style: bold;
 }
 
-body
+p.info
 {
-    font-family: 'Open Sans', sans-serif;
-    font-style: bold;
-    color: #686767;
-    font-size: 24px;
-    padding-bottom: 25px;
+        color: #D79922;
+        font-size: 29px;
+        text-align: left;
+        margin-left: 320px;
+        margin-right: 150px;
+        padding-bottom: 5px;
 
 }
 
+.trail { /* className for the trail elements */
+    position: absolute;
+    height: 10px; width: 10px;
+    border-radius: 3px;
+    background: #C5CBE3;
+  }
 
 p.image
 {
-    margin-left: 410px;
-padding-bottom: 25px;
-
-}
-
-p.image:hover
-{
-    margin-left: 410px;
+    margin-left: 390px;;
 padding-bottom: 25px;
 
 }
