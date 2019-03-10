@@ -34,5 +34,5 @@ function draw()
 	fill(30,130,50);
   rect(angle,0,40,n);
 
-	
+
 }
