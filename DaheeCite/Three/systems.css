@@ -61,25 +61,43 @@ a.content
     font-weight: bold;
 }
 
+a.desc
+{
+    color: #D79922;
+    font-size: 59px;
+    margin-left:45px;
+
+}
+
 a:hover {
     
     font-style: bold;
 }
 
-p.info
-{
-        color: #D79922;
-        font-size: 29px;
-        text-align: left;
-        margin-left: 320px;
-        margin-right: 150px;
-        padding-bottom: 5px;
-
-}
-
-img
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 4px;
+  }
+  
+  .column img {
+    margin-left:45px;
+    padding-bottom: 4px;
+    vertical-align: middle;
+  }
+  
+/* img
   {
       margin-left:45px;
   padding-bottom: 25px;
   
-  }
+  } */
