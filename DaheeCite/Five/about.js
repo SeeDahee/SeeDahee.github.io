@@ -1,20 +1,26 @@
 var canvas;
 var mic;
-var angle;
+var addition;
+var moreAdd;
+var n; 
+var o;
 
-var xoff = 0.0;
-var angle = 0;
+var waveOne = 0.0;
+var waveTwo = 0.0;
+
+var addition = 0;
+var moreAdd = 0;
 
 function windowResized() 
 {
   //console.log('resized');
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, windowHeight * 2);
 }
 
 function setup() 
 {
 	// fill(243, 237, 218);
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight * 2);
   canvas.position(0, 0);
   canvas.style('z-index','-1');
   frameRate(60);
@@ -25,14 +31,25 @@ function draw()
 {
 	
 	noStroke();
-	
-	xoff = xoff + 0.01;
-	angle += 1;
-  var n = noise(xoff) * 700;
+  
+  
+  waveOne = waveOne + 0.01;
+	waveTwo = waveTwo + 0.04;
+  addition += 1;
+  moreAdd += 2;
+  
+  var n = noise(waveOne) * 1000;
+  var o = noise(waveTwo) * 200
 
-	stroke(80,110,10);
+
+
+  stroke(80,110,10);
 	fill(30,130,50);
-  rect(angle,0,40,n)
+  rect(addition,0,50,n);
+
+	// stroke(80,110,10);
+  // fill(30,130,50);
+  // rect(moreAdd,200,40,n);
 
 	
 }

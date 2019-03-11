@@ -77,16 +77,9 @@ p.info
 
 }
 
-.trail { /* className for the trail elements */
-    position: absolute;
-    height: 10px; width: 10px;
-    border-radius: 3px;
-    background: #C5CBE3;
+img
+  {
+      margin-left:45px;
+  padding-bottom: 25px;
+  
   }
-
-p.image
-{
-    margin-left: 390px;;
-padding-bottom: 25px;
-
-}

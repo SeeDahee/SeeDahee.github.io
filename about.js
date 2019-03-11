@@ -14,7 +14,7 @@ function windowResized()
 function setup() 
 {
 	// fill(243, 237, 218);
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight * 2);
   canvas.position(0, 0);
   canvas.style('z-index','-1');
   frameRate(60);
@@ -30,9 +30,9 @@ function draw()
 	angle += 1;
   var n = noise(xoff) * 700;
 
-	stroke(80,110,10);
-	fill(30,130,50);
+	stroke('#2E6038');
+	fill('#4C8456');
   rect(angle,0,40,n);
 
-	
+
 }
