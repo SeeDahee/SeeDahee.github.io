@@ -3,46 +3,25 @@
 
 body
 {
-    background: rgb(243, 237, 218);
+    background: #CDDEF7;
     font-family: 'Overpass', sans-serif;
     font-style: bold;
     
 
 }
 
-a:link {color:#144B22}
-a:visited {color:#144B22} 
-a:hover {color:#ffd800}   
-a:active {color:#ffd800} 
+a:link {color:#D59933}
+a:visited {color:#D59933} 
+a:hover {color:#FC8F30}   
+a:active {color:#FC8F30} 
 
-h1
-{
-    font-weight: bold;
-    color: #4056A1;
-    font-size: 72px;
-    margin-left:45px;
-}
-
-h2
-{
-    margin-left: 320px;
-    margin-right: 150px;
-    color: black;
-    
-}
 
 mark
 {
-    background-color: #4056A1;
+    background-color: #FC8F30;
     color: white;
 }
 
-em 
-{
-    font-style: normal;
-    font-weight: bold;
-    color: #F13C20;
-}
 
 a
 {
@@ -54,39 +33,78 @@ margin-right:55px;
 
 }
 
-a.content
+h1
 {
-    font-size: 45px;
-    font-style: normal;
     font-weight: bold;
+    color: #4056A1;
+    font-size: 72px;
+    margin-left:45px;
 }
 
+h2
+{
+    text-align: left;
+    margin-left: 410px;
+    margin-right:55px;
+    color: black;
+    
+}
+
+
+em 
+{
+    font-style: normal;
+    font-weight: bold;
+    color: #D79922;
+}
 a:hover {
     
     font-style: bold;
 }
 
-p.info
+
+a.interruption
 {
-        color: #D79922;
-        font-size: 29px;
-        text-align: left;
-        margin-left: 320px;
-        margin-right: 150px;
-        padding-bottom: 5px;
+
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left: 410px;
+margin-right:55px;
+}   
+
+
+
+
+p.material
+{
+
+    color: #F5B252;
+    font-size: 29px;
+    text-align: left;
+    margin-left: 410px;
+    margin-right:55px;
+    padding-bottom: 5px;
+
 
 }
 
-.trail { /* className for the trail elements */
-    position: absolute;
-    height: 10px; width: 10px;
-    border-radius: 3px;
-    background: #C5CBE3;
-  }
+p.outcome
+{
+
+    color: #D79922;
+    font-size: 29px;
+    text-align: left;
+    margin-left: 410px;
+    margin-right:55px;
+    padding-bottom: 5px;
+
+border-bottom: solid #2E6038; 
+}
 
 p.image
 {
-    margin-left: 390px;;
+    margin-left:55px;
 padding-bottom: 25px;
 
 }

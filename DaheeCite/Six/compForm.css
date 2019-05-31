@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
 
-a:link {color:#144B22}
-a:visited {color:#144B22} 
-a:hover {color:#ffd800}   
-a:active {color:#ffd800} 
 
 body
 {
-    background: rgb(243, 237, 218);
+    background: #CDDEF7;
     font-family: 'Overpass', sans-serif;
     font-style: bold;
+    
+
 }
+
+a:link {color:#D59933}
+a:visited {color:#D59933} 
+a:hover {color:#FC8F30}   
+a:active {color:#FC8F30} 
+
 
 mark
 {
-
-    background-color: #ffd800;
-
-
+    background-color: #FC8F30;
+    color: white;
 }
-
 
 
 a
@@ -49,19 +50,13 @@ h2
     
 }
 
-mark
-{
-    background-color: #4056A1;
-    color: white;
-}
 
 em 
 {
     font-style: normal;
     font-weight: bold;
-    color: #F13C20;
+    color: #D79922;
 }
-
 a:hover {
     
     font-style: bold;
@@ -80,18 +75,11 @@ margin-right:55px;
 
 
 
-em {
-    font-style: normal;
-    font-weight: bold;
-   
-
-}
-
 
 p.material
 {
 
-    color: #D79922;
+    color: #F5B252;
     font-size: 29px;
     text-align: left;
     margin-left: 410px;
@@ -111,7 +99,7 @@ p.outcome
     margin-right:55px;
     padding-bottom: 5px;
 
-border-bottom: solid #144B22; 
+border-bottom: solid #2E6038; 
 }
 
 p.image

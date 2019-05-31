@@ -3,17 +3,17 @@
 
 body
 {
-    background: rgb(243, 237, 218);
+    background: #CDDEF7;
     font-family: 'Overpass', sans-serif;
     font-style: bold;
     
 
 }
 
-a:link {color:#144B22}
-a:visited {color:#144B22} 
-a:hover {color:#ffd800}   
-a:active {color:#ffd800} 
+a:link {color:#D59933}
+a:visited {color:#D59933} 
+a:hover {color:#FC8F30}   
+a:active {color:#FC8F30} 
 
 h1
 {
@@ -33,7 +33,7 @@ h2
 
 mark
 {
-    background-color: #4056A1;
+    background-color: #FC8F30;
     color: white;
 }
 
@@ -41,7 +41,7 @@ em
 {
     font-style: normal;
     font-weight: bold;
-    color: #F13C20;
+    color: #F5B252;
 }
 
 a.content
@@ -53,8 +53,8 @@ a.content
 
 p.info
 {
-        color: #D79922;
-        font-size: 29px;
+        color: #E5BF1F;
+        font-size: 32px;
         text-align: left;
         margin-left: 320px;
         margin-right: 150px;

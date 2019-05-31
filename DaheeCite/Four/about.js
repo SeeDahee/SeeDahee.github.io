@@ -34,5 +34,9 @@ function draw()
 	fill('#4C8456');
   rect(angle,0,40,n);
 
+  stroke(255);
+  strokeWeight(.75);
+
+  rect(angle+4,0,40,n);
 
 }
