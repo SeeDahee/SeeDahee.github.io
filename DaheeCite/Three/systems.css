@@ -12,8 +12,8 @@ body
 
 a:link {color:#D59933}
 a:visited {color:#D59933} 
-a:hover {color:#FC8F30}   
-a:active {color:#FC8F30} 
+a:hover {color:#FD752C}   
+a:active {color:#FD752C} 
 
 
 h1
@@ -34,7 +34,7 @@ h2
 
 mark
 {
-    background-color: #FC8F30;
+    background-color: #FD752C;
     color: white;
 }
 

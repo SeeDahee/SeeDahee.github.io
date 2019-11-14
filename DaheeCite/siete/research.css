@@ -3,7 +3,7 @@
 
 body
 {
-    background: #F3E9DF;
+    background: #FFE9D9;
     font-family: 'Overpass', sans-serif;
     font-style: bold;
     
@@ -12,13 +12,13 @@ body
 
 a:link {color:#D59933}
 a:visited {color:#D59933} 
-a:hover {color:#FC8F30}   
-a:active {color:#FC8F30} 
+a:hover {color:#FD752C}   
+a:active {color:#FD752C} 
 
 
 mark
 {
-    background-color: #FC8F30;
+    background-color: #FD752C;
     color: white;
 }
 
