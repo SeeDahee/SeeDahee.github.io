@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
+
+
+body
+{
+    background: #F3E9DF;
+    font-family: 'Overpass', sans-serif;
+    font-style: bold;
+    
+
+}
+
+a:link {color:#D59933}
+a:visited {color:#D59933} 
+a:hover {color:#FC8F30}   
+a:active {color:#FC8F30} 
+
+
+h1
+{
+    font-weight: bold;
+    color: #4056A1;
+    font-size: 72px;
+    margin-left:45px;
+}
+
+h2
+{
+    margin-left: 320px;
+    margin-right: 150px;
+    color: black;
+    
+}
+
+mark
+{
+    background-color: #FC8F30;
+    color: white;
+}
+
+em 
+{
+    font-style: normal;
+    font-weight: bold;
+    color: #F5B252;
+}
+
+a
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+a.content
+{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+a.desc
+{
+    color: #D79922;
+    font-size: 59px;
+    margin-left:45px;
+
+}
+
+a:hover {
+    
+    font-style: bold;
+}
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 4px;
+  }
+  
+  .column img {
+    margin-left:45px;
+    padding-bottom: 4px;
+    vertical-align: middle;
+  }
+  
+/* img
+  {
+      margin-left:45px;
+  padding-bottom: 25px;
+  
+  } */
