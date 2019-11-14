@@ -16,34 +16,12 @@ a:hover {color:#FC8F30}
 a:active {color:#FC8F30} 
 
 
-h1
-{
-    font-weight: bold;
-    color: #4056A1;
-    font-size: 72px;
-    margin-left:45px;
-}
-
-h2
-{
-    margin-left: 320px;
-    margin-right: 150px;
-    color: black;
-    
-}
-
 mark
 {
     background-color: #FC8F30;
     color: white;
 }
 
-em 
-{
-    font-style: normal;
-    font-weight: bold;
-    color: #F5B252;
-}
 
 a
 {
@@ -55,50 +33,90 @@ margin-right:55px;
 
 }
 
-a.content
+h1
 {
-    font-size: 45px;
+    font-weight: bold;
+    color: #4056A1;
+    font-size: 72px;
+    margin-left:45px;
+}
+
+h2
+{
+    text-align: left;
+    margin-left: 410px;
+    margin-right:55px;
+    color: black;
+    
+}
+
+
+em 
+{
     font-style: normal;
     font-weight: bold;
-}
-
-a.desc
-{
     color: #D79922;
-    font-size: 59px;
-    margin-left:45px;
-
 }
-
 a:hover {
     
     font-style: bold;
 }
 
-.row {
-    display: -ms-flexbox; /* IE 10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-    flex-wrap: wrap;
-    padding: 4px;
-  }
-  
-  /* Create two equal columns that sits next to each other */
-  .column {
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
-    padding: 4px;
-  }
-  
-  .column img {
-    margin-left:45px;
-    padding-bottom: 4px;
-    vertical-align: middle;
-  }
-  
-/* img
-  {
-      margin-left:45px;
-  padding-bottom: 25px;
-  
-  } */
+
+a.interruption
+{
+
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left: 410px;
+margin-right:55px;
+}   
+
+
+
+
+p.material
+{
+
+    color: #D79922;
+    font-size: 29px;
+    text-align: left;
+    margin-left: 410px;
+    margin-right:55px;
+    padding-bottom: 5px;
+
+
+}
+p.side
+{
+
+    color: #D79922;
+    font-size: 29px;
+    text-align: left;
+    margin-right: 410px;
+    margin-left:55px;
+    padding-bottom: 5px;
+
+
+}
+
+p.outcome
+{
+
+    color: #D79922;
+    font-size: 29px;
+    text-align: left;
+    margin-left: 410px;
+    margin-right:55px;
+    padding-bottom: 5px;
+
+border-bottom: solid #2E6038; 
+}
+
+p.image
+{
+    margin-left:55px;
+padding-bottom: 25px;
+
+}
