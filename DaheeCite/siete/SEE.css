@@ -70,6 +70,14 @@ a.desc
 
 }
 
+a.big
+{
+    color: #D79922;
+    font-size: 29px;
+    margin-left:45px;
+
+}
+
 a:hover {
     
     font-style: bold;
@@ -91,7 +99,7 @@ a:hover {
   }
   
   .column img {
-    margin-left:45px;
+    margin-left:55px;
     padding-bottom: 4px;
     vertical-align: middle;
   }
