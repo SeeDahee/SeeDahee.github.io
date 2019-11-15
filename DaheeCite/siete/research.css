@@ -41,6 +41,15 @@ h1
     margin-left:45px;
 }
 
+h1.center
+{
+    font-weight: bold;
+    color: #4056A1;
+    font-size: 92px;
+    margin-left:45px;
+
+}
+
 h2
 {
     text-align: left;
