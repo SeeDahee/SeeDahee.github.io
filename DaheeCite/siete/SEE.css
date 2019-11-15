@@ -78,6 +78,14 @@ a.big
 
 }
 
+a.medium
+{
+    color: #D79922;
+    font-size: 45px;
+    margin-left:45px;
+
+}
+
 a:hover {
     
     font-style: bold;
