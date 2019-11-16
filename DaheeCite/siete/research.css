@@ -65,7 +65,7 @@ em
 {
     font-style: normal;
     font-weight: bold;
-    color: #D79922;
+    color: rgb(121, 84, 15);
 }
 a:hover {
     
@@ -89,7 +89,7 @@ margin-right:55px;
 p.material
 {
 
-    color: #D79922;
+    color: #9c6909;
     font-size: 29px;
     text-align: left;
     margin-left: 410px;
@@ -101,7 +101,7 @@ p.material
 p.side
 {
 
-    color: #D79922;
+    color: #9c6909;
     font-size: 29px;
     text-align: left;
     margin-right: 410px;
@@ -114,7 +114,7 @@ p.side
 p.outcome
 {
 
-    color: #D79922;
+    color: #9c6909;
     font-size: 29px;
     text-align: left;
     margin-left: 410px;
