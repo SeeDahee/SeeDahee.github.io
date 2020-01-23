@@ -3,7 +3,7 @@
 
 body
 {
-    background: #FFE9D9;
+    background-image: url('background.gif');
     font-family: 'Overpass', sans-serif;
     font-style: bold;
     
