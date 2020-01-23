@@ -75,30 +75,13 @@ a:hover {
     font-style: bold;
 }
 
-.row {
-    display: -ms-flexbox; /* IE 10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-    flex-wrap: wrap;
-    padding: 4px;
+.grid-container {
+    display: grid;
+    grid-gap: 10px 10px;
   }
-  
-  /* Create two equal columns that sits next to each other */
-  .column {
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
-    padding: 4px;
+  .grid-item {
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
   }
-  
-  .column img {
-    margin-left:45px;
-    padding-bottom: 4px;
-    vertical-align: middle;
-  }
-  
-/* img
-  {
-      margin-left:45px;
-  padding-bottom: 25px;
-  
-  } */

@@ -3,7 +3,7 @@
 
 body
 {
-    background: #F3E9DF;
+    background: url('peare.gif');
     font-family: 'Overpass', sans-serif;
     font-style: bold;
     
@@ -19,9 +19,9 @@ a:active {color:#FD752C}
 h1
 {
     font-weight: bold;
-    color: #4056A1;
+    text-align:center;
     font-size: 72px;
-    margin-left:45px;
+    padding-right: 60px;
 }
 
 h2
@@ -74,31 +74,14 @@ a:hover {
     
     font-style: bold;
 }
+.grid-container {
+    display: grid;
+    grid-gap: 10px 10px;
+  }
+  .grid-item {
 
-.row {
-    display: -ms-flexbox; /* IE 10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-    flex-wrap: wrap;
-    padding: 4px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
   }
-  
-  /* Create two equal columns that sits next to each other */
-  .column {
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
-    padding: 4px;
-  }
-  
-  .column img {
-    margin-left:45px;
-    padding-bottom: 4px;
-    vertical-align: middle;
-  }
-  
-/* img
-  {
-      margin-left:45px;
-  padding-bottom: 25px;
-  
-  } */
+
