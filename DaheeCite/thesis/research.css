@@ -79,18 +79,11 @@ a:hover {
 
 .grid-container {
     display: grid;
-    grid-gap: 10px 10px;
+    grid-gap: 10px 0px;
   }
   .grid-item {
 
-    padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
 
-/* img
-  {
-      margin-left:45px;
-  padding-bottom: 25px;
-  
-  } */
+  }
