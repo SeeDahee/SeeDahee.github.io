@@ -74,6 +74,7 @@ a:hover {
     
     font-style: bold;
 }
+
 .grid-container {
     display: grid;
     grid-gap: 10px 10px;
@@ -84,4 +85,3 @@ a:hover {
     font-size: 30px;
     text-align: center;
   }
-
