@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
+
+
+body
+{
+    background: #FFE9D9;
+    font-family: 'Overpass', sans-serif;
+    font-style: bold;
+    
+
+}
+
+a:link {color:#D59933}
+a:visited {color:#D59933} 
+a:hover {color:#FD752C}   
+a:active {color:#FD752C} 
+
+
+mark
+{
+    background-color: #FD752C;
+    color: white;
+}
+
+
+a
+{
+    
+font-size: 25px;
+color: black;
+text-align: left;
+margin-right:55px;
+
+}
+
+h1
+{
+    font-weight: bold;
+    color: #4056A1;
+    font-size: 72px;
+    margin-left:45px;
+}
+
+h2
+{
+    text-align: left;
+    margin-left: 410px;
+    margin-right:55px;
+    color: black;
+    
+}
+
+
+em 
+{
+    font-style: normal;
+    font-weight: bold;
+    color: #D79922;
+}
+a:hover {
+    
+    font-style: bold;
+}
+
+
+a.interruption
+{
+
+color: black;
+font-size: 24px;
+text-align: left;
+margin-left: 410px;
+margin-right:55px;
+}   
+
+
+
+
+p.material
+{
+
+    color: #F5B252;
+    font-size: 29px;
+    text-align: left;
+    margin-left: 410px;
+    margin-right:55px;
+    padding-bottom: 5px;
+
+
+}
+
+p.outcome
+{
+
+    color: #D79922;
+    font-size: 29px;
+    text-align: left;
+    margin-left: 410px;
+    margin-right:55px;
+    padding-bottom: 5px;
+
+border-bottom: solid #2E6038; 
+}
+
+p.image
+{
+    margin-left:55px;
+padding-bottom: 25px;
+
+}
