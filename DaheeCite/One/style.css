@@ -3,17 +3,16 @@
 
 body
 {
-    background: url('grape.gif');
+    background:#00d1ed;
     font-family: 'Overpass', sans-serif;
     font-style: bold;
     
-
 }
 
 a:link {color:#D59933}
 a:visited {color:#D59933} 
-a:hover {color:#FC8F30}   
-a:active {color:#FC8F30} 
+a:hover {color:#f5b605}   
+a:active {color:#f5b605} 
 
 h1
 {
@@ -33,15 +32,15 @@ h2
 
 mark
 {
-    background-color: #FD752C;
-    color: white;
+    background-color: white;
+    color: #ff7512;
 }
 
 em 
 {
     font-style: normal;
     font-weight: bold;
-    color: #FD752C;
+    color: #f5b605;
 }
 
 a.content
@@ -53,7 +52,7 @@ a.content
 
 p.info
 {
-        color: #946403;
+        color: white;
         font-size: 32px;
         text-align: left;
         margin-left: 320px;
@@ -62,5 +61,4 @@ p.info
 
 }
 
-  
   

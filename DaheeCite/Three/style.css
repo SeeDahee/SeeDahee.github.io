@@ -1,27 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
 
 
+
 body
 {
-    background: #F3E9DF;
+    background:#00d1ed;
     font-family: 'Overpass', sans-serif;
     font-style: bold;
     
-
 }
-
 a:link {color:#D59933}
 a:visited {color:#D59933} 
-a:hover {color:#FD752C}   
-a:active {color:#FD752C} 
+a:hover {color:#ffc112}   
+a:active {color:#ffc112} 
+
 
 
 mark
 {
-    background-color: #FD752C;
-    color: white;
+    background-color: white;
+    color: #ff7512;
 }
 
+em 
+{
+    font-style: normal;
+    font-weight: bold;
+    color: #F5B252;
+}
 
 a
 {
@@ -36,27 +42,21 @@ margin-right:55px;
 h1
 {
     font-weight: bold;
-    color: #4056A1;
+    color: white;
     font-size: 72px;
-    margin-left:45px;
+    margin-left:55px;
 }
 
-h2
+
+p.headers
 {
-    text-align: left;
-    margin-left: 410px;
-    margin-right:55px;
-    color: black;
+    font-weight: bold;
+    color: white;
+    font-size: 52px;
+    margin-left:55px;
     
 }
 
-
-em 
-{
-    font-style: normal;
-    font-weight: bold;
-    color: #D79922;
-}
 a:hover {
     
     font-style: bold;
@@ -79,7 +79,7 @@ margin-right:55px;
 p.material
 {
 
-    color: #F5B252;
+    color: #4056A1;
     font-size: 29px;
     text-align: left;
     margin-left: 410px;
@@ -88,18 +88,30 @@ p.material
 
 
 }
+p.side
+{
+
+    color: #4056A1;
+    font-size: 29px;
+    text-align: left;
+    margin-right: 410px;
+    margin-left:55px;
+    padding-bottom: 5px;
+
+
+}
 
 p.outcome
 {
 
-    color: #D79922;
+    color: #4056A1;
     font-size: 29px;
     text-align: left;
     margin-left: 410px;
     margin-right:55px;
     padding-bottom: 5px;
 
-border-bottom: solid #2E6038; 
+border-bottom: solid #f5b605; 
 }
 
 p.image

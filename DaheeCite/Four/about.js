@@ -30,11 +30,11 @@ function draw()
 	angle += 1;
   var n = noise(xoff) * 700;
 
-	stroke('#2E6038');
-	fill('#4C8456');
+	fill('#e0640b');
+	stroke('#ff7514');
   rect(angle,0,40,n);
 
-  stroke(255);
+  // stroke(255);
   strokeWeight(.75);
 
   rect(angle+4,0,40,n);

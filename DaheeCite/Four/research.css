@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
 
 
+
 body
 {
-    background: url('bababa.gif');
+    background:#00d1ed;
     font-family: 'Overpass', sans-serif;
     font-style: bold;
     
-
 }
-
 a:link {color:#D59933}
 a:visited {color:#D59933} 
-a:hover {color:#FD752C}   
-a:active {color:#FD752C} 
+a:hover {color:#f5b605}   
+a:active {color:#f5b605} 
 
 
 h1
@@ -34,15 +33,15 @@ h2
 
 mark
 {
-    background-color: #FD752C;
-    color: white;
+    background-color: white;
+    color: #ff7512;
 }
 
 em 
 {
     font-style: normal;
     font-weight: bold;
-    color: #FD752C;
+    color: #F5B252;
 }
 
 a
@@ -64,9 +63,24 @@ a.content
 
 a.desc
 {
-    color: #D79922;
+    color: #ff9100;
     font-size: 59px;
-    margin-left:45px;
+
+
+}
+
+a.big
+{
+    color: #ff9100;
+    font-size: 29px;
+
+
+}
+
+a.medium
+{
+    color: #ff9100;
+    font-size: 45px;
 
 }
 

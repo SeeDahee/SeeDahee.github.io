@@ -1,27 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass:400,700');
 
 
+
 body
 {
-    background: #FFE9D9;
+    background:#00d1ed;
     font-family: 'Overpass', sans-serif;
     font-style: bold;
     
-
 }
-
 a:link {color:#D59933}
 a:visited {color:#D59933} 
-a:hover {color:#FD752C}   
-a:active {color:#FD752C} 
+a:hover {color:#ffc112}   
+a:active {color:#ffc112} 
+
 
 
 mark
 {
-    background-color: #FD752C;
-    color: white;
+    background-color: white;
+    color: #ff7512;
 }
 
+em 
+{
+    font-style: normal;
+    font-weight: bold;
+    color: #F5B252;
+}
 
 a
 {
@@ -36,7 +42,7 @@ margin-right:55px;
 h1
 {
     font-weight: bold;
-    color: #4056A1;
+    color: white;
     font-size: 72px;
     margin-left:45px;
 }
@@ -44,7 +50,7 @@ h1
 h1.center
 {
     font-weight: bold;
-    color: #4056A1;
+    color: white;
     font-size: 122px;
     margin-right:85px;
     text-align: center;
@@ -56,17 +62,10 @@ h2
     text-align: left;
     margin-right: 410px;
     margin-left:55px;
-    color: #4056A1;
+    color: white;
     
 }
 
-
-em 
-{
-    font-style: normal;
-    font-weight: bold;
-    color: rgb(121, 84, 15);
-}
 a:hover {
     
     font-style: bold;
@@ -89,7 +88,7 @@ margin-right:55px;
 p.material
 {
 
-    color: #9c6909;
+    color: #4056A1;
     font-size: 29px;
     text-align: left;
     margin-left: 410px;
@@ -101,7 +100,7 @@ p.material
 p.side
 {
 
-    color: #9c6909;
+    color: #4056A1;
     font-size: 29px;
     text-align: left;
     margin-right: 410px;
@@ -114,14 +113,14 @@ p.side
 p.outcome
 {
 
-    color: #9c6909;
+    color: #4056A1;
     font-size: 29px;
     text-align: left;
     margin-left: 410px;
     margin-right:55px;
     padding-bottom: 5px;
 
-border-bottom: solid #2E6038; 
+border-bottom: solid #f5b605; 
 }
 
 p.image
