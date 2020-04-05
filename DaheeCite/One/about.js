@@ -27,10 +27,10 @@ function draw()
 	noStroke();
 	
 	xoff = xoff + 0.01;
-	angle += 1;
-  var n = noise(xoff) * 700;
+	angle += .6;
+  var n = noise(xoff) * 750;
 
-	fill('#e0640b');
+	fill('#d15700');
 	stroke('#ff7514');
   rect(angle,0,40,n);
 
