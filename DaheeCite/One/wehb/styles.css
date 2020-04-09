@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body
+{
+    background:#0b20de;
+    background-image:url(images/background.png);
+    background-position: top;
+    background-repeat: repeat-y;
+    font-family: 'Inter', sans-serif;
+    margin-left: 32px;
+    margin-right: 32px;
+    
+    
+    
+}
+
+
+
+a:link {color:#D59933}
+a:visited {color:#D59933} 
+a:hover {color:#F0C808}   
+a:active {color:#F0C808} 
+
+
+div.huv
+{
+    height: 20px;
+
+}
+div.huv:hover + p.appear {
+    display: block;
+  } 
+
+
+  p.appear
+  {
+      display: none;
+  }
+
+
+div.scrollmenu 
+{
+
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  div.scrollmenu::-webkit-scrollbar
+  {
+
+    display: none;
+  }
+
+  div.scrollmenu a 
+  {
+  
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover 
+  {
+    background-color: none;
+  }
+
+h1
+{
+    font-style: black;
+    color: white;
+    font-size: 72px;
+    text-align: left;
+    border: 8pt dashed;
+    border-color: #31AFD4;
+    /* width:700px; */
+
+}
+
+.blinking{
+    animation: blinkingText 1s infinite;
+    color: white;
+    font-style: bold;
+        font-size: 73px;
+        text-align: center;
+        display: block;
+        /* margin-left: 320px;
+        margin-right: 150px; */
+        padding-bottom: 5px;
+}
+
+@keyframes blinkingText{
+    0%{     color: white;}
+    49%{    color: white;}
+    60%{    color: transparent;}
+    99%{    color:transparent;}
+    100%{   color: white;}
+}
+
+.blinkingOne{
+    animation: blinkingText 1.5s infinite;
+    color: white;
+    font-style: bold;
+        font-size: 73px;
+        text-align: right;
+        display: start;
+        /* margin-left: 320px;
+        margin-right: 150px; */
+        padding-bottom: 5px;
+}
+
+@keyframes blinkingText{
+    0%{     color: white;}
+    49%{    color: white;}
+    60%{    color: transparent;}
+    99%{    color:transparent;}
+    100%{   color: white;}
+}
+
+
+.blinkingTwo{
+    animation: blinkingTwoText .8s infinite;
+    color: white;
+    font-style: bold;
+        font-size: 73px;
+        text-align: right;
+        display: block;
+        margin-left: 300px;
+        /* margin-right: 150px; */
+        padding-bottom: 5px;
+}
+
+@keyframes blinkingTwoText{
+    0%{     color: white;}
+    49%{    color: white;}
+    60%{    color: transparent;}
+    99%{    color:transparent;}
+    100%{   color: white;}
+}
+
+
+.blinkingThree{
+    animation: blinkingThreeText 1.8s infinite;
+    color: white;
+    font-style: bold;
+        font-size: 73px;
+        text-align: center;
+        display: block;
+        /* margin-left: 320px;
+        margin-right: 150px; */
+        padding-bottom: 5px;
+}
+
+@keyframes blinkingThreeText{
+    0%{     color: white;}
+    49%{    color: white;}
+    60%{    color: transparent;}
+    99%{    color:transparent;}
+    100%{   color: white;}
+}
+
+
+
+h2
+{
+    margin-left: 320px;
+    margin-right: 150px;
+    color: black;
+    
+}
+
+mark
+{
+    background-color: white;
+    color: #31AFD4;
+}
+
+em 
+{
+    font-style: normal;
+    font-weight: bold;
+    color: #f5b605;
+}
+
+a.content
+{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+  
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+
+}
+
+p
+{
+    color: white;
+        font-size: 32px;
+        text-align: left;
+        padding-bottom: 5px;
+}
