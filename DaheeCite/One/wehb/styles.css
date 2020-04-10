@@ -37,33 +37,13 @@ div.huv:hover + p.appear {
       display: none;
   }
 
-
-div.scrollmenu 
+div.box
 {
+    margin-left:400px;
+    margin-right:400px;
 
-    overflow-x: scroll;
-    white-space: nowrap;
-  }
 
-  div.scrollmenu::-webkit-scrollbar
-  {
-
-    display: none;
-  }
-
-  div.scrollmenu a 
-  {
-  
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  div.scrollmenu a:hover 
-  {
-    background-color: none;
-  }
-
+}
 h1
 {
     font-style: black;
@@ -205,3 +185,7 @@ p
         text-align: left;
         padding-bottom: 5px;
 }
+
+
+
+
