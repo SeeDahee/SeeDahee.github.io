@@ -21,6 +21,11 @@ a:visited {color:#D59933}
 a:hover {color:#F0C808}   
 a:active {color:#F0C808} 
 
+a.middle
+{
+    padding-right: 20px;
+    font-size: 45px;
+}
 
 div.huv
 {
