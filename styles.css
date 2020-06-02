@@ -17,8 +17,8 @@ a:active {color:#f5b605}
 h1
 {
     font-weight: bold;
-    color: white;
-    font-size: 72px;
+    color: #4056A1;
+    font-size: 80px;
     margin-left:45px;
 }
 
@@ -45,7 +45,7 @@ em
 
 a.content
 {
-    font-size: 45px;
+    font-size: 50px;
     font-style: normal;
     font-weight: bold;
 }
@@ -55,9 +55,20 @@ p.info
         color: white;
         font-size: 32px;
         text-align: left;
-        margin-left: 320px;
+        margin-left: 520px;
         margin-right: 150px;
         padding-bottom: 5px;
+
+}
+
+p.infoz
+{
+        color: white;
+        font-size: 42px;
+        text-align: left;
+        margin-left: 520px;
+        margin-right: 150px;
+        padding-bottom: 35px;
 
 }
 
