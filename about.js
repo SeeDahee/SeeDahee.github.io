@@ -1,42 +1,54 @@
-var canvas;
-var mic;
-var angle;
+// THINGS TO ADD  
+// - Make the circles fade after somet ime so you have like a mouse trail
+//play with circle sizes
+//you just need some more interactive component to your website
 
-var xoff = 0.0;
-var angle = 0;
+
+var c1, c2;
+let trail = [];
+let a = 0;
+let b = 0;
 
 function windowResized() 
 {
-  //console.log('resized');
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, windowHeight*2);
 }
 
-function setup() 
+
+function setGradient(c1, c2) 
 {
-	// fill(243, 237, 218);
-  canvas = createCanvas(windowWidth, windowHeight * 2);
+  noFill();
+  for (var y = 0; y < height; y++) {
+    var inter = map(y, 0, height, 0, 1.5);
+    var c = lerpColor(c1, c2, inter);
+    stroke(c);
+    line(0, y, width, y);
+  }
+}
+
+function setup() {
+  canvas = createCanvas(windowWidth, windowHeight * 2.08);
   canvas.position(0, 0);
   canvas.style('z-index','-1');
   frameRate(60);
+  c1 = color(255, 204, 0);
+  c2 = color(255);
+  setGradient(c1, c2);
 }
 
 
-function draw()
-{
-	
-	noStroke();
-	
-	xoff = xoff + 0.01;
-	angle += .6;
-  var n = noise(xoff) * 750;
 
-	fill('#d15700');
-	stroke('#ff7514');
-  rect(angle,0,40,n);
+function draw() {
 
-  // stroke(255);
-  strokeWeight(.75);
-
-  rect(angle+4,0,40,n);
-
+  trail.push([mouseX, mouseY]);
+   for(let i = 0; i < trail.length; i++) {
+   noFill();
+   stroke('#ff7514');
+   line(trail[i][0], trail[i][1], mouseX, mouseY);
+     if(a > 250) {
+       trail.shift();
+       a = 0;
+     }
+     a += 3;
+  }
 }
