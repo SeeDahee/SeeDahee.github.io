@@ -3,9 +3,7 @@
 
 body
 {
-
-    background:  url(https://media.giphy.com/media/k8AxXNHUptK9ebpk2e/giphy.gif) no-repeat center fixed; 
-    background-size: 600px;
+    
     font-family: 'Lexend Deca', sans-serif;
     font-style: bold;
     
@@ -54,7 +52,7 @@ a.content
 
 p.info
 {
-        color: #132274;
+        color: white;
         font-size: 32px;
         text-align: left;
         margin-left: 520px;
@@ -74,4 +72,3 @@ p.infoz
 
 }
 
-  

@@ -3,21 +3,21 @@
 
 body
 {
-    background:#00d1ed;
+    
     font-family: 'Lexend Deca', sans-serif;
     font-style: bold;
     
 }
 
-a:link {color:#D59933}
-a:visited {color:#D59933} 
-a:hover {color:#f5b605}   
+a:link {color:#f5b605}
+a:visited {color:#f5b605} 
+a:hover {color:#ffd364}   
 a:active {color:#f5b605} 
 
 h1
 {
     font-weight: bold;
-    color: #4056A1;
+    color: #132274;
     font-size: 80px;
     margin-left:45px;
 }
@@ -26,21 +26,21 @@ h2
 {
     margin-left: 320px;
     margin-right: 150px;
-    color: black;
+    color: #132274;
     
 }
 
 mark
 {
-    background-color: white;
-    color: #ff7512;
+    background-color: #f01516;
+    color: white;
 }
 
 em 
 {
     font-style: normal;
     font-weight: bold;
-    color: #f5b605;
+    color: white;
 }
 
 a.content
@@ -52,7 +52,7 @@ a.content
 
 p.info
 {
-        color: white;
+        color: #132274;
         font-size: 32px;
         text-align: left;
         margin-left: 520px;
@@ -72,4 +72,3 @@ p.infoz
 
 }
 
-  

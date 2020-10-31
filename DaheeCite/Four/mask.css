@@ -1,20 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 
+a:link {color:black}
+a:visited {color:black} 
+a:hover {color:#f5b605}   
+a:active {color:#f5b605} 
+
 
 body
 {
-    background:#00d1ed;
+    background-color: #f1f1f1;
+    padding: 10px;
     font-family: 'Lexend Deca', sans-serif;
-    font-style: bold;
+    font-size: 23px;
+    max-width: 1200px;
+    margin: auto;
     
 }
-a:link {color:#D59933}
-a:visited {color:#D59933} 
-a:hover {color:#ffc112}   
-a:active {color:#ffc112} 
 
+.main {
+    max-width: 1200px;
+    margin: auto;
+  }
 
+hr
+{
+  padding-left:55px;
+  border: 1px solid red;
+
+}
 
 mark
 {
@@ -42,7 +56,7 @@ margin-right:55px;
 h1
 {
     font-weight: bold;
-    color: white;
+    color:#ff7512;
     font-size: 72px;
     margin-left:55px;
 }
@@ -51,9 +65,10 @@ h1
 p.headers
 {
     font-weight: bold;
-    color: white;
+    color:#ff7512;
     font-size: 52px;
     margin-left:55px;
+    margin-bottom: 0px;
     
 }
 
@@ -74,7 +89,18 @@ margin-right:55px;
 }   
 
 
+p.overview
+{
 
+    color: #4056A1;
+    font-size: 39px;
+    text-align: left;
+    margin-left:55px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+
+
+}
 
 p.material
 {

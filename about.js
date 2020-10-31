@@ -11,7 +11,7 @@ let b = 0;
 
 function windowResized() 
 {
-  resizeCanvas(windowWidth, windowHeight*2);
+  resizeCanvas(windowWidth, windowHeight*4);
 }
 
 
@@ -43,7 +43,8 @@ function draw() {
   trail.push([mouseX, mouseY]);
    for(let i = 0; i < trail.length; i++) {
    noFill();
-   stroke('#ff7514');
+   strokeWeight(55);
+   stroke('#1d79f2');
    line(trail[i][0], trail[i][1], mouseX, mouseY);
      if(a > 250) {
        trail.shift();

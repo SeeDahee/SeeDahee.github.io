@@ -1,103 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
-
-
-body
-{
-    background:#00d1ed;
+a:link {color:black}
+a:visited {color:black} 
+a:hover {color:orangered}   
+a:active {color:orangered} 
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 10px;
     font-family: 'Lexend Deca', sans-serif;
-    font-style: bold;
-    
-}
-a:link {color:#D59933}
-a:visited {color:#D59933} 
-a:hover {color:#ffc112}   
-a:active {color:#ffc112} 
+    font-size: 23px;
+  }
 
+  hr
+  {
+  border: 1px solid red;
 
+  }
+  
+  a.research
+  {
+    font-size: 25px;
+    margin-right:25px;
+  }
 
+  .titles
+  {
+    font-size: 48px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  /* Center website */
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 90px;
+  }
 
-h1
-{
-    font-weight: bold;
-    text-align:center;
-    font-size: 72px;
-    padding-right: 60px;
-}
-
-h2
-{
-    margin-left: 320px;
-    margin-right: 150px;
-    color: black;
-    
-}
-
-mark
-{
+  h2 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 3px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
     background-color: white;
-    color: #ff7512;
-}
-
-em 
-{
-    font-style: normal;
-    font-weight: bold;
-    color: #F5B252;
-}
-
-a
-{
-    
-font-size: 25px;
-color: black;
-text-align: left;
-margin-right:55px;
-
-}
-
-a.content
-{
-    font-size: 45px;
-    font-style: normal;
-    font-weight: bold;
-}
-
-a.desc
-{
-    color: #ff9100;
-    font-size: 59px;
-
-
-}
-
-a.big
-{
-    color: #ff9100;
-    font-size: 29px;
-
-
-}
-
-a.medium
-{
-    color: #ff9100;
-    font-size: 45px;
-
-}
-
-a:hover {
-    
-    font-style: bold;
-}
-
-.grid-container {
-    display: grid;
-    grid-gap: 10px 10px;
+    padding: 5px;
   }
-  .grid-item {
-
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
   }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
