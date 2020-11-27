@@ -6,7 +6,7 @@ a:hover {color:orangered}
 a:active {color:orangered} 
 body
 {
-    background-color: #f1f1f1;
+    background-color: #fff9e2;
     padding: 10px;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 23px;
@@ -40,7 +40,7 @@ em
 {
     font-style: normal;
     font-weight: bold;
-    color: #F5B252;
+    color: orangered;
 }
 
 a
@@ -88,71 +88,18 @@ margin-left: 410px;
 margin-right:55px;
 }   
 
-
-p.overview
-{
-
-    color: #4056A1;
-    font-size: 39px;
-    text-align: left;
-    margin-left:55px;
-    padding-bottom: 5px;
-    margin-top: 0px;
-
-
-}
-
-p.material
-{
-
-    color: #4056A1;
-    font-size: 29px;
-    text-align: left;
-    display: block;
-
- 
-
-
-}
 p.materials
 {
 
-    color: #4056A1;
+    color: #1d79f2;
     font-size: 29px;
     text-align: left;
     display: block;
     padding-left: 490px;
 
- 
 
 
 }
-p.side
-{
-
-    color: #4056A1;
-    font-size: 29px;
-    text-align: left;
-    margin-right: 410px;
-    margin-left:55px;
-    padding-bottom: 5px;
-
-
-}
-
-p.outcome
-{
-
-    color: #4056A1;
-    font-size: 29px;
-    text-align: left;
-    margin-left: 410px;
-    margin-right:55px;
-    padding-bottom: 5px;
-
-border-bottom: solid #f5b605; 
-}
-
 img
 {
   display:block;

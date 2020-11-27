@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+a:link {color:black}
+a:visited {color:black} 
+a:hover {color:orangered}   
+a:active {color:orangered} 
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+  }
+
+  hr
+  {
+    padding-left:55px;
+    border: 1px solid red;
+
+  }
+  p.description
+  {
+    font-size: 35px;
+
+  }
+  a.research
+  {
+    font-size: 25px;
+    margin-right:25px;
+  }
+
+  .links
+  {
+    color:black;
+  }
+
+  .titles
+  {
+    font-size: 48px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  /* Center website */
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  
+  .row {
+    margin: 8px - 30px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 15px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 30%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 80%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
